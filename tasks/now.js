@@ -33,7 +33,7 @@ module.exports = function(grunt) {
       if (
         isDev(options.env) &&
         (options.prod_alias.includes(nowTemplate.alias) ||
-          options.stage_alias(includes(nowTemplate.alias)))
+          options.stage_alias.includes(nowTemplate.alias))
       ) {
         grunt.fail.fatal(
           "now.json file is trying to deploy non-development domain to development environment"
