@@ -15,7 +15,7 @@ the now.json file. It can do more in the future if we want.
 
 Load:
 ```javascript
-grunt.loadNpmTasks('@andyet/grunt-contrib-now');
+grunt.loadNpmTasks('grunt-contrib-andyet-now');
 ```
 
 Configure:
