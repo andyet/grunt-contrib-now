@@ -1,6 +1,6 @@
 {
   "name": "grunt-contrib-andyet-now",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "&yet grunt plugin for zeit/now builds",
   "main": "tasks/now.js",
   "scripts": {
